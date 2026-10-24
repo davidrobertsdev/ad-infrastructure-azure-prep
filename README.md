@@ -1,5 +1,5 @@
 <p align="center">
-<img src="YOUR-LOGO-LINK" height="30%" width="30%" alt="Active Directory in Azure logo"/>
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/azure.png" height="20%" width="20%" alt="Microsoft Azure logo"/>
 </p>
 
 <h1>Active Directory - Preparing the Infrastructure in Azure</h1>
