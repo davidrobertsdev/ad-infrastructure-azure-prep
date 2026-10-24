@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="YOUR-LOGO-LINK" height="30%" width="30%" alt="Active Directory in Azure logo"/>
 </p>
 
 <h1>Active Directory - Preparing the Infrastructure in Azure</h1>
