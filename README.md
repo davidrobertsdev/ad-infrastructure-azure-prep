@@ -1,21 +1,3 @@
-<img width="1067" height="303" alt="Screenshot 2026-10-24 at 11 52 09 AM" src="https://github.com/user-attachments/assets/4f9adbda-5510-4649-8884-9aeb12cf479f" />
-<img width="1370" height="809" alt="Screenshot 2026-10-24 at 12 06 19 PM" src="https://github.com/user-attachments/assets/1dc88f95-d806-47c8-81cf-edada84afcdc" />
-<img width="1384" height="618" alt="Screenshot 2026-10-24 at 11 51 39 AM" src="https://github.com/user-attachments/assets/69d61989-0187-473e-8254-49cc3446b2c6" />
-<img width="576" height="769" alt="Screenshot 2026-10-24 at 11 56 14 AM" src="https://github.com/user-attachments/assets/9044d2ac-61e9-46ea-94cd-a1713e36885f" />
-<img width="1358" height="632" alt="Screenshot 2026-10-24 at 11 51 25 AM" src="https://github.com/user-attachments/assets/b8f16bc7-ed8e-45b0-9c34-c4b507ee8cb2" />
-<img width="584" height="778" alt="Screenshot 2026-10-24 at 11 55 56 AM" src="https://github.com/user-attachments/assets/e6ff913b-774d-43a9-867f-29396be5fc9e" />
-<img width="1440" height="900" alt="Screenshot 2026-10-24 at 11 38 29 AM" src="https://github.com/user-attachments/assets/307529b3-f351-4589-beec-fcda8c57cb3a" />
-<img width="933" height="674" alt="Screenshot 2026-10-24 at 11 38 38 AM" src="https://github.com/user-attachments/assets/323fdb59-2969-44d8-a3ce-254c2f71a145" />
-<img width="824" height="814" alt="Screenshot 2026-10-24 at 11 38 50 AM" src="https://github.com/user-attachments/assets/da071d99-e291-41c4-b8ae-8a758d2a1806" />
-<img width="1440" height="900" alt="Screenshot 2026-10-24 at 11 51 15 AM" src="https://github.com/user-attachments/assets/f53d35e1-7457-47fb-84f8-bace8722caab" />
-<img width="1440" height="900" alt="Screenshot 2026-10-24 at 11 55 23 AM" src="https://github.com/user-attachments/assets/ebaa5f9f-c656-46d0-8217-dc7ac2a7d37d" />
-<img width="1440" height="900" alt="Screenshot 2026-10-24 at 11 55 00 AM" src="https://github.com/user-attachments/assets/ec049bf4-12e3-4916-be16-e204644c1450" />
-<img width="1327" height="807" alt="Screenshot 2026-10-24 at 11 52 43 AM" src="https://github.com/user-attachments/assets/9272e1b6-0890-4ac1-8881-91c42602459c" />
-<img width="1041" height="666" alt="Screenshot 2026-10-24 at 11 54 11 AM" src="https://github.com/user-attachments/assets/1e59369e-5fc9-4d4d-b07e-6894e5d98e0f" />
-
-
-
-
 <p align="center">
 <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/azure.png" height="20%" width="20%" alt="Microsoft Azure logo"/>
 </p>
@@ -23,10 +5,6 @@
 <h1>Active Directory - Preparing the Infrastructure in Azure</h1>
 This tutorial walks through preparing the Azure infrastructure for an Active Directory lab. We build a resource group and virtual network, deploy a Windows Server virtual machine to act as the Domain Controller (DC-1), give it a static private IP, deploy a Windows 10 client (Client-1) on the same network, point the client's DNS at the Domain Controller, and verify connectivity. Nothing is promoted to a domain controller yet; this lab lays the groundwork for the Active Directory labs that follow.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Prepare Active Directory Infrastructure in Azure](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -152,7 +130,7 @@ By default the Windows Firewall blocks ICMP echo requests, so Client-1's ping wo
 <h3>Part 3: Client (Client-1)</h3>
 
 <p>
-<img src="YOUR-IMGUR-LINK-6" height="80%" width="80%" alt="Client-1 being created next to DC-1"/>
+<img src="https://github.com/user-attachments/assets/4f9adbda-5510-4649-8884-9aeb12cf479f" height="80%" width="80%" alt="Client-1 being created next to DC-1"/>
 </p>
 <p>
 <b>Step 7: Create the Client-1 virtual machine.</b>
@@ -169,7 +147,7 @@ The VM list now shows <b>client-1</b> in the Creating state next to <b>dc-1</b> 
 <br />
 
 <p>
-<img src="YOUR-IMGUR-LINK-7" height="80%" width="80%" alt="Client-1 DNS server set to DC-1's private IP"/>
+<img src="https://github.com/user-attachments/assets/1dc88f95-d806-47c8-81cf-edada84afcdc" height="80%" width="80%" alt="Client-1 DNS server set to DC-1's private IP"/>
 </p>
 <p>
 <b>Step 8: Point Client-1's DNS at DC-1.</b>
@@ -208,7 +186,7 @@ Successful replies prove the two machines can reach each other across the virtua
 <br />
 
 <p>
-<img src="YOUR-IMGUR-LINK-8" height="80%" width="80%" alt="ipconfig /all output showing DNS server 10.0.1.4"/>
+<img rc="https://github.com/user-attachments/assets/3d34ac87-d13c-4bd2-a708-49e4d646c4e2" height="80%" width="80%" alt="ipconfig /all output showing DNS server 10.0.1.4"/>
 </p>
 <p>
 <b>Step 11: Confirm the DNS setting with ipconfig.</b>
