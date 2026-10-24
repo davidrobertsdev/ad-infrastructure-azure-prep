@@ -60,7 +60,7 @@ This tutorial walks through preparing the Azure infrastructure for an Active Dir
 <h3>Part 1: Azure Foundation</h3>
 
 <p>
-<img src="YOUR-IMGUR-LINK-1" height="80%" width="80%" alt="Creating the resource group"/>
+<img src="https://github.com/user-attachments/assets/307529b3-f351-4589-beec-fcda8c57cb3a" height="80%" width="80%" alt="Creating the resource group"/>
 </p>
 <p>
 <b>Step 1: Create the Resource Group.</b>
@@ -90,7 +90,7 @@ The virtual network is the private network both machines will live on, so they c
 <h3>Part 2: Domain Controller (DC-1)</h3>
 
 <p>
-<img src="YOUR-IMGUR-LINK-2" height="80%" width="80%" alt="DC-1 running in the VM list"/>
+<img src="https://github.com/user-attachments/assets/69d61989-0187-473e-8254-49cc3446b2c6" width="80%" alt="DC-1 running in the VM list"/>
 </p>
 <p>
 <b>Step 3: Create the DC-1 virtual machine.</b>
@@ -107,7 +107,7 @@ Once deployment finishes, the VM list shows <b>dc-1</b> with a status of <b>Runn
 <br />
 
 <p>
-<img src="YOUR-IMGUR-LINK-3" height="80%" width="80%" alt="DC-1 network settings with the NIC circled"/>
+<img src="https://github.com/user-attachments/assets/69d61989-0187-473e-8254-49cc3446b2c6" height="80%" width="80%" alt="DC-1 network settings with the NIC circled"/>
 </p>
 <p>
 <b>Step 4: Open DC-1's network interface.</b>
@@ -121,10 +121,10 @@ The Essentials panel confirms DC-1's current private IP address (<code>10.0.1.4<
 <br />
 
 <p>
-<img src="YOUR-IMGUR-LINK-4" height="80%" width="80%" alt="IP allocation set to Dynamic"/>
+<img src="https://github.com/user-attachments/assets/e6ff913b-774d-43a9-867f-29396be5fc9e" height="80%" width="80%" alt="IP allocation set to Dynamic"/>
 </p>
 <p>
-<img src="YOUR-IMGUR-LINK-5" height="80%" width="80%" alt="IP allocation set to Static"/>
+<img src="https://github.com/user-attachments/assets/9044d2ac-61e9-46ea-94cd-a1713e36885f" height="80%" width="80%" alt="IP allocation set to Static"/>
 </p>
 <p>
 <b>Step 5: Set DC-1's private IP address to Static.</b>
